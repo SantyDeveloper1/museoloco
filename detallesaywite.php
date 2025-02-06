@@ -6,7 +6,7 @@
     ?>
     <head>
         <meta charset="utf-8">
-        <title>Stocker - Stock Market Website Template</title>
+        <title>Piedra de Saymite</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -77,16 +77,16 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="about.html" class="nav-item nav-link">Acerca de</a>
+                        <a href="index.php" class="nav-item nav-link">Casa</a>
+                        <a href="about.php" class="nav-item nav-link">Acerca de</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link active" data-bs-toggle="dropdown">
                                 <span class="class">Servicios</span>
                             </a>
                         </div>
-                        <a href="contact.html" class="nav-item nav-link">Contactactanos</a>
+                        <a href="contact.php" class="nav-item nav-link">Contactactanos</a>
                     </div>
-                    <a href="#" class="btn btn-primary rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0">Empezar</a>
+                    <a href="service.php" class="btn btn-primary rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0">Empezar</a>
                 </div>
             </nav>
 
@@ -95,7 +95,7 @@
                 <div class="container text-center py-5" style="max-width: 900px;">
                     <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Piedra de Saywite</h4>
                     <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
-                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                        <li class="breadcrumb-item"><a href="index.php">Casa</a></li>
                         <li class="breadcrumb-item active text-primary">Detalle de Saywite</li>
                     </ol>    
                 </div>

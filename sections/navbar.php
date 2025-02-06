@@ -36,7 +36,7 @@
                 <a href="service.php" class="nav-item nav-link">Servicios </a>
                 <a href="contact.php" class="nav-item nav-link">Contactactanos</a>
             </div>
-            <a href="#" class="btn btn-primary rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0">Empezar</a>
+            <a href="service.php" class="btn btn-primary rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0">Empezar</a>
         </div>
     </nav>
 
