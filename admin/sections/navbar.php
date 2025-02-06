@@ -173,12 +173,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
-                <a href="index.php" class="nav-item nav-link active">Home</a>
+                <a href="index.php" class="nav-item nav-link active">Casa</a>
                 <a href="about.php" class="nav-item nav-link">Acerca de </a>
                 <a href="service.php" class="nav-item nav-link">Servicios</a>
                 <a href="contact.php" class="nav-item nav-link">Contactactanos</a>
             </div>
-            <a href="#" class="btn btn-primary rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0">Empezar</a>
+            <a href="service.php" class="btn btn-primary rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0">Empezar</a>
         </div>
     </nav>
 

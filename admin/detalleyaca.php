@@ -21,16 +21,16 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="about.html" class="nav-item nav-link">Acerca de</a>
+                        <a href="index.php" class="nav-item nav-link">Casa</a>
+                        <a href="about.php" class="nav-item nav-link">Acerca de</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link active" data-bs-toggle="dropdown">
                                 <span class="class">Servicios</span>
                             </a>
                         </div>
-                        <a href="contact.html" class="nav-item nav-link">Contactactanos</a>
+                        <a href="contact.php" class="nav-item nav-link">Contactactanos</a>
                     </div>
-                    <a href="#" class="btn btn-primary rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0">Empezar</a>
+                    <a href="ervice.php" class="btn btn-primary rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0">Empezar</a>
                 </div>
             </nav>
 
