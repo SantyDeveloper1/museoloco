@@ -83,13 +83,52 @@
                             </div>
                         </div>
                     </div>
+                    
                     <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
                         <div class="bg-primary rounded position-relative overflow-hidden">
                             <div class="rounded-bottom">
-                                <img src="img/plaza.jpg" class="img-fluid rounded-bottom w-100" alt="">
+                                <!-- Contenedor de A-Frame -->
+                                <a-scene embedded>
+                                    <a-assets>
+                                        <img id="my-image" src="img/plaza.jpg">
+                                    </a-assets>
+
+                                    <!-- Varias imágenes dentro de marcos -->
+                                    <a-entity>
+                                        <!-- Frente -->
+                                        <a-box position="0 2 -5" width="10.5" height="8.5" depth="0.1" color="black"></a-box>
+                                        <a-image src="#my-image" position="0 2 -4.95" width="10" height="8"></a-image>
+
+                                        <!-- Atrás -->
+                                        <a-box position="0 2 5" width="10.5" height="8.5" depth="0.1" color="black"></a-box>
+                                        <a-image src="#my-image" position="0 2 4.95" rotation="0 180 0" width="10" height="8"></a-image>
+
+                                        <!-- Izquierda -->
+                                        <a-box position="-5 2 0" rotation="0 90 0" width="10.5" height="8.5" depth="0.1" color="black"></a-box>
+                                        <a-image src="#my-image" position="-4.95 2 0" rotation="0 90 0" width="10" height="8"></a-image>
+
+                                        <!-- Derecha -->
+                                        <a-box position="5 2 0" rotation="0 -90 0" width="10.5" height="8.5" depth="0.1" color="black"></a-box>
+                                        <a-image src="#my-image" position="4.95 2 0" rotation="0 -90 0" width="10" height="8"></a-image>
+
+                                        <!-- Arriba -->
+                                        <a-box position="0 7 0" rotation="90 0 0" width="10.5" height="8.5" depth="0.1" color="black"></a-box>
+                                        <a-image src="#my-image" position="0 6.95 0" rotation="90 0 0" width="10" height="8"></a-image>
+
+                                        <!-- Abajo -->
+                                        <a-box position="0 -3 0" rotation="-90 0 0" width="10.5" height="8.5" depth="0.1" color="black"></a-box>
+                                        <a-image src="#my-image" position="0 -2.95 0" rotation="-90 0 0" width="10" height="8"></a-image>
+                                    </a-entity>
+
+                                    <!-- Cámara -->
+                                    <a-camera position="0 1.6 0">
+                                        <a-cursor></a-cursor>
+                                    </a-camera>
+                                </a-scene>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
